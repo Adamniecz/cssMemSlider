@@ -109,13 +109,12 @@ img {
 }
 
 .control:hover span {
-	background-color: #339966;
-	border-color: white;
+	border-color: #FF6633;
+	background-color: white;
 }
 
 .control:active span {
-	background-color: white;
-	border-color: #339966;
+	background-color: #FF6633;
 } 
 
 #radio-button-1:checked ~ .navigation .control:nth-child(1) span {
