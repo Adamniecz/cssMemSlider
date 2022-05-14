@@ -16,8 +16,7 @@ body {
 }
 
 input[type=radio] {
-	position: absolute;
-	visibility: hidden;
+	display: none;
 }
 
 .slider {
@@ -179,11 +178,11 @@ img {
 	.slider {
 		width: 100%;
 		grid-template-areas:"img img"
-							"desc desc"
-							"nav nav";
+							"nav nav"
+							"desc desc";
 	}
 	.navigation {
 		border: none;
-		border-top: 0.1rem #339966 solid;
+		border-bottom: 0.1rem #339966 solid;
 	}
 }
