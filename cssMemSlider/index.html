@@ -6,11 +6,45 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CSS Meme Slider</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+	<div class="slider">
+		<input name="radio-button" type="radio" id="radio-button-1" checked>
+		<input name="radio-button" type="radio" id="radio-button-2">
+		<input name="radio-button" type="radio" id="radio-button-3">
+		<input name="radio-button" type="radio" id="radio-button-4">
+		<input name="radio-button" type="radio" id="radio-button-5">
+		<input name="radio-button" type="radio" id="radio-button-6">
+		<div class="slides">
+			<div class="slide"><img src="./assets/uncles.gif" alt="meme"></div>
+			<div class="slide"><img src="./assets/rei.gif" alt="meme"></div>
+			<div class="slide"><img src="./assets/milk.gif" alt="meme"></div>
+			<div class="slide"><img src="./assets/ubermarginal.gif" alt="meme"></div>
+			<div class="slide"><img src="./assets/mad.gif" alt="meme"></div>
+			<div class="slide"><img src="./assets/arthas.gif" alt="meme"></div>
+		</div>
+		<div class="description-wrapper">
+			<div class="description">Свежее мясо</div>
+			<div class="description">Ты (не) поймешь</div>
+			<div class="description">Yandere "milk": if else</div>
+			<div class="description">Деньги мне плати</div>
+			<div class="description">О, дом Фландерса</div>
+			<div class="description">Разрабы ******</div>
+		</div>
+		<nav class="navigation">
+			<label for="radio-button-1" class="control"><span></span></label>
+			<label for="radio-button-2" class="control"><span></span></label>
+			<label for="radio-button-3" class="control"><span></span></label>
+			<label for="radio-button-4" class="control"><span></span></label>
+			<label for="radio-button-5" class="control"><span></span></label>
+			<label for="radio-button-6" class="control"><span></span></label>
+		</nav>
+	</div>
 </body>
 
 </html>
